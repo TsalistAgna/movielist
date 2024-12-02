@@ -1,0 +1,66 @@
+{
+  "icons": [
+    {
+      "src": "icon_512x512.12f5c90a24f874381e2342831528df2a.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_384x384.e2792e5d9108da300ce228c1c2d23af8.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_256x256.b37a85e28df2b4aaac220ee4f13ed7c2.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_192x192.9d1ab90059d2a2cbe3607d5462248c74.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_152x152.11b46b29d5b19759f7752b872cc26965.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_144x144.e748e8f58bf9865a89ece667bc1c5527.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_128x128.67d10f8e9352ccf9b9024d40739177b3.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_96x96.cf37d2dc274bee1603a235abe765d2c5.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_72x72.538950d0be8aa4815bd505b22f3542a5.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "name": "Movie Catalogue",
+  "short_name": "Movie",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./index.html",
+  "description": "The best curated Movies in Cinemas",
+  "background_color": "#ffffff",
+  "theme_color": "#d84315"
+}
