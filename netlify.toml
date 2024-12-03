@@ -12,6 +12,25 @@
   # Installs the Lighthouse Build Plugin for all deploy contexts
   package = "@netlify/plugin-lighthouse"
 
+# Production context: all deploys from the Production branch
+[context.production]
+  publish = "dist/"
+  command = "webpack --config week10/webpack.config.js"
+  environment = { NODE_VERSION = "14.15.3" }
+
 # Deploy Preview context: all deploys generated from a pull/merge request
 [context.deploy-preview]
   publish = "dist/"
+
+# Branch Deploy context: deploys that are not from pull requests or production
+[context.branch-deploy]
+  command = "echo branch"
+  environment = { NODE_ENV = "development" }
+
+[context.dev.environment]
+  NODE_ENV = "development"
+
+[dev]
+  command = "yarn start"
+  port = 8888
+  publish = "dist"
