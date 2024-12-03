@@ -1,5 +1,7 @@
 var serviceWorkerOption = {
   "assets": [
+    "/main.js",
+    "/images/unram.png",
     "/assets/favicon-16x16.png",
     "/assets/favicon-32x32.png",
     "/assets/favicon-48x48.png",
@@ -62,8 +64,6 @@ var serviceWorkerOption = {
     "/assets/manifest.webapp",
     "/assets/browserconfig.xml",
     "/assets/yandex-browser-manifest.json",
-    "/main.js",
-    "/images/unram.png",
     "/index.html",
     "/manifest.96f3f1dfcc00157189b012ced94f494d.json",
     "/icon_512x512.12f5c90a24f874381e2342831528df2a.png",
