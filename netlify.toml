@@ -3,7 +3,7 @@
   base = "."
 
   # Directory that contains the deploy-ready HTML files and assets
-  publish = "build-output/"
+  publish = "dist/"
 
   # Default build command
   command = "webpack --config week10/webpack.config.js"
