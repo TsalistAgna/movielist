@@ -1,31 +1,5 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "week10/webpack.config.js",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/week4/(.*)",
-        "dest": "/week4/$1"
-      },
-      {
-        "src": "/week5/(.*)",
-        "dest": "/week5/$1"
-      },
-      {
-        "src": "/week6/(.*)",
-        "dest": "/week6/$1"
-      },
-      {
-        "src": "/week8/(.*)",
-        "dest": "/week8/$1"
-      },
-      {
-        "src": "/week10/(.*)",
-        "dest": "/week10/$1"
-      }
-    ]
-  }  
+    "builds": [{ "src": "week10/src/index.js", "use": "@vercel/node" }],
+    "routes": [{ "src": "/(.*)", "dest": "/" }]
+}
