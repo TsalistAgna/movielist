@@ -37,5 +37,8 @@
         "webpack-dev-server": "^3.11.0",
         "webpack-pwa-manifest": "^4.3.0",
         "ws": "^6.2.2"
+    },
+    "engines": {
+        "node": ">=16.0.0 <17.0.0"
     }
 }
