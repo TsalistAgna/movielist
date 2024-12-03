@@ -3,7 +3,7 @@
   base = "."
 
   # Directory that contains the deploy-ready HTML files and assets
-  publish = "dist/"
+  publish = "week10/dist/"
 
   # Default build command
   command = "webpack --config week10/webpack.config.js"
@@ -14,13 +14,13 @@
 
 # Production context: all deploys from the Production branch
 [context.production]
-  publish = "dist/"
+  publish = "week10/dist/"
   command = "webpack --config week10/webpack.config.js"
   environment = { NODE_VERSION = "14.15.3" }
 
 # Deploy Preview context: all deploys generated from a pull/merge request
 [context.deploy-preview]
-  publish = "dist/"
+  publish = "week10/dist/"
 
 # Branch Deploy context: deploys that are not from pull requests or production
 [context.branch-deploy]
@@ -33,4 +33,4 @@
 [dev]
   command = "yarn start"
   port = 8888
-  publish = "dist"
+  publish = "week10/dist/"
